@@ -77,7 +77,7 @@ impl Plic {
         7
     }
 
-    fn compatible() -> &'static [&'static str] {
+    pub fn compatible() -> &'static [&'static str] {
         &["riscv,plic0"]
     }
 }
